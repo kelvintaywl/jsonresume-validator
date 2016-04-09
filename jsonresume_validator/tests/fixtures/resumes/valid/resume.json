@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Tay Wee Leng Kelvin",
+    "label": "Full Stack Engineer",
+    "picture": "",
+    "email": "kelvintaywl@gmail.com",
+    "phone": "(+81) 80-3082-4784",
+    "website": "http://kelvintaywl.github.io",
+    "summary": "As a communicative person, I get the most energy out of solving technical challenges with non-technical teammates. I enjoy futsal, 80s music, natto and afternoon beers (not in that order).",
+    "location": {
+      "address": "1-24-11 Daita, Setagaya-ku",
+      "postalCode": "155-0033",
+      "city": "Tokyo",
+      "countryCode": "JP",
+      "region": "Tokyo"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "kelvintaywl",
+        "url": "https://github.com/kelvintaywl"
+      },
+      {
+        "network": "Facebook",
+        "username": "kelvintaywl",
+        "url": "https://facebook.com/kelvintaywl"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Gengo",
+      "position": "Software Engineer",
+      "website": "https://gengo.com",
+      "startDate": "2014-10-17",
+      "endDate": "2016-12-31",
+      "summary": "I'm learning new things everyday as I work on internal-facing applications and tools used by Sales, Finance and Operations team, as well as client-facing applications. I also maintain API clients and style guides and open-source projects for Gengo.",
+      "highlights": [
+        "Self-initiated tools to help manage crons ",
+        "Gengo Best Employee of the Month (August 2015)",
+        "Taught conversational Thai to colleagues as part of knowledge-sharing",
+        "tools: Python, PHP, Javascript, PostgreSQL, IronMQ "
+      ]
+    },
+    {
+      "company": "KLab Inc.",
+      "position": "Full Stack Engineer (Graduate Programme)",
+      "website": "http://klab.com",
+      "startDate": "2013-10-01",
+      "endDate": "2014-10-02",
+      "summary": "As a new global graduate hire, I worked on the highly-anticipated Age of Empires World Domination mobile game. Besides the API server, i also developed features on the front-end via Unity 3D.",
+      "highlights": [
+        "Self-started 3 usability projects to help improve content management processes",
+        "Main contributor to Admin system for Age of Empires development team"
+      ]
+    },
+    {
+      "company": "3rd Battalion, Singapore Guards",
+      "position": "Reconnaissance Trooper",
+      "website": "https://en.wikipedia.org/wiki/Singapore_Guards#Role",
+      "startDate": "2007-04-13",
+      "endDate": "2009-02-09",
+      "summary": "I served with the elite Singapore Guards as my compulsory military service.",
+      "highlights": [
+        "Served in overseas mission exercises in Thailand and Australia"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "National University of Singapore",
+      "area": "Electronic Commerce",
+      "studyType": "Bachelor of Computing (1st Class Hons.)",
+      "startDate": "2009-08-01",
+      "endDate": "2013-05-31",
+      "gpa": "4.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Lee Kuan Yew Gold Medal",
+      "date": "2014-11-01",
+      "awarder": "National University of Singapore",
+      "summary": "Overall top graduate for Electronic Commerce major"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front-end Development",
+      "level": "",
+      "keywords": [
+        "Javascript",
+        "HTML, CSS",
+        "React JS",
+        "Ember JS"
+      ]
+    },
+    {
+      "name": "Back-end Development",
+      "level": "",
+      "keywords": [
+        "Python",
+        "PHP",
+        "PostgreSQL",
+        "Mongo DB"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Chinese (Mandarin)",
+      "fluency": "Native"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Intermediate"
+    },
+    {
+      "language": "Thai",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
