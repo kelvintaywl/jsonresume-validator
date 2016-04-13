@@ -2,7 +2,7 @@
 
 import colander
 
-from jsonresume_validator.schema.components.common import Keywords
+from jsonresume.schema.components.common import Keywords
 
 
 class Language(colander.MappingSchema):

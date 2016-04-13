@@ -4,9 +4,8 @@ import colander
 
 
 class Experience(colander.MappingSchema):
-    pass
-    #startDate = colander.SchemaNode(colander.Date())
-    #endDate = colander.SchemaNode(colander.Date())
+    startDate = colander.SchemaNode(colander.Date())
+    endDate = colander.SchemaNode(colander.Date())
 
 
 class Highlights(colander.SequenceSchema):

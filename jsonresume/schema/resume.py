@@ -2,7 +2,7 @@
 
 import colander
 
-from jsonresume_validator.schema.components import (
+from jsonresume.schema.components import (
     ability,
     achievement,
     experience,
@@ -43,6 +43,7 @@ class Interests(colander.SequenceSchema):
 
 
 class Resume(colander.MappingSchema):
+    """ Schema that maps all necessary information required in the JSON resume """
     basics = personal.BasicInfo()
     work = WorkExperiences()
     volunteer = VolunteerExperiences()

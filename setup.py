@@ -19,7 +19,7 @@ extras_require = {
     ]
 }
 
-setup(name='jsonresume_validator',
+setup(name='jsonresume-validator',
       version='0.0.1',
       description='validates JSON resumes',
       long_description=read_file('README.md'),
@@ -29,6 +29,6 @@ setup(name='jsonresume_validator',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      test_suite='jsonresume_validator',
+      test_suite='jsonresume',
       install_requires=requires,
       extras_require=extras_require)
