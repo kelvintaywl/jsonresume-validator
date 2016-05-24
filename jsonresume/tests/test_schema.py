@@ -4,8 +4,8 @@ import unittest
 
 import colander
 
-from jsonresume_validator.schema.resume import Resume as JSONResumeSchema
-from jsonresume_validator.tests.fixtures.load import (
+from jsonresume.schema.resume import Resume as JSONResumeSchema
+from jsonresume.tests.fixtures.load import (
     get_invalid_resumes,
     get_valid_resumes
 )
