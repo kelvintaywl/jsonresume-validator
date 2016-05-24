@@ -2,11 +2,6 @@
 
 from setuptools import setup, find_packages
 
-
-def read_file(filename):
-    with open(filename, 'r') as infile:
-        return infile.read()
-
 requires = [
     "colander==1.2"
 ]
@@ -20,9 +15,8 @@ extras_require = {
 }
 
 setup(name='jsonresume-validator',
-      version='0.0.1',
+      version='0.0.1b',
       description='validates JSON resumes',
-      long_description=read_file('README.md'),
       author='Kelvin Tay',
       author_email='kelvintay@gmail.com',
       url='https://github.com/kelvintaywl/jsonresume-validator',
