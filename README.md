@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/kelvintaywl/jsonresume-validator.svg?branch=master)](https://travis-ci.org/kelvintaywl/jsonresume-validator)
+[![Build Status](https://travis-ci.org/kelvintaywl/jsonresume-validator.svg?branch=master)](https://travis-ci.org/kelvintaywl/jsonresume-validator) [![PyPI version](https://badge.fury.io/py/jsonresume-validator.svg)](https://https://pypi.python.org/pypi/jsonresume-validator)
 
 # JSON Resume Validator
 
