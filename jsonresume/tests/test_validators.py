@@ -4,7 +4,7 @@ import unittest
 
 from colander import Invalid
 
-from jsonresume.validators import is_valid_country_code
+from jsonresume.schema.validators import is_valid_country_code
 
 
 class TestCountryCodeValidation(unittest.TestCase):

@@ -13,7 +13,36 @@ Python tool to validate JSON resumes to ensure that they are according to the [d
 $ pip install jsonresume-validator
 ```
 
-## Example use
+## Example uses
+
+1. Using Resume class
+
+```python
+import json
+
+from jsonresume import Resume
+from jsonresume.exceptions import InvalidResumeError
+
+MY_RESUME_JSON_FILEPATH = ""
+
+with open(MY_RESUME_JSON_FILEPATH, 'r') as json_file:
+	data = json.load(json_file)
+	r = Resume(data)
+	if r.is_valid():
+		print("Yay! We're good")
+	else:
+		print("Houston, we have a problem")
+
+	# if we prefer catching exceptions...
+	try:
+		r.validate()
+	except InvalidResumeError:
+		# deal with invalid resume
+		pass
+
+```
+
+2. Using Schemas (colander)
 
 ```python
 
