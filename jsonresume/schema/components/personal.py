@@ -3,7 +3,7 @@
 import colander
 
 from jsonresume.schema.components.common import Keywords
-from jsonresume.validators import is_valid_country_code
+from jsonresume.schema.validators import is_valid_country_code
 
 
 class Profile(colander.MappingSchema):
