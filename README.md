@@ -13,7 +13,11 @@ Python tool to validate JSON resumes to ensure that they are according to the [d
 $ pip install jsonresume-validator
 ```
 
-## Example uses
+## Example apps
+
+- A sample Flask web app to [validate an uploaded JSON resume and returning validation issues on submission](https://github.com/kelvintaywl/jsonresume-server)
+
+## Example codes
 
 1. Using Resume class
 
