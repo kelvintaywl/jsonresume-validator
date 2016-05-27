@@ -15,12 +15,12 @@ extras_require = {
 }
 
 setup(name='jsonresume-validator',
-      version='0.1.0',
+      version='0.1.1',
       description='validates JSON resumes',
       author='Kelvin Tay',
       author_email='kelvintay@gmail.com',
       url='https://github.com/kelvintaywl/jsonresume-validator',
-      download_url='https://github.com/kelvintaywl/jsonresume-validator/tarball/0.1.0',
+      download_url='https://github.com/kelvintaywl/jsonresume-validator/tarball/0.1.1',
       keywords='jsonresume, validation, colander',
       packages=find_packages(),
       include_package_data=True,
