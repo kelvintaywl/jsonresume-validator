@@ -9,7 +9,7 @@ from jsonresume.schema.validators import is_valid_country_code
 class Profile(colander.MappingSchema):
     network = colander.SchemaNode(colander.String())
     username = colander.SchemaNode(colander.String())
-    url = colander.SchemaNode(colander.String(), validator=colander.url)
+    url = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
 
 
 class Profiles(colander.SequenceSchema):
@@ -39,7 +39,7 @@ class BasicInfo(colander.MappingSchema):
     picture = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
     email = colander.SchemaNode(colander.String(), validator=colander.Email())
     phone = colander.SchemaNode(colander.String())
-    website = colander.SchemaNode(colander.String(), validator=colander.url)
+    website = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
     summary = colander.SchemaNode(colander.String())
     location = Location()
     profiles = Profiles()

@@ -20,7 +20,7 @@ class Work(Experience):
     company = colander.SchemaNode(colander.String())
     position = colander.SchemaNode(colander.String())
     summary = colander.SchemaNode(colander.String())
-    website = colander.SchemaNode(colander.String(), validator=colander.url)
+    website = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
     highlights = Highlights()
 
 
@@ -28,7 +28,7 @@ class Volunteer(Experience):
     organization = colander.SchemaNode(colander.String())
     position = colander.SchemaNode(colander.String())
     summary = colander.SchemaNode(colander.String())
-    website = colander.SchemaNode(colander.String(), validator=colander.url)
+    website = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
     highlights = Highlights()
 
 

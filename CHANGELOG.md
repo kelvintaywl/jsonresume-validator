@@ -1,8 +1,11 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.1.2] - 2016-06-04
 ### Changed
 - made end dates not compulsory / required (e.g., in work experiences)
+- made urls not coompulsory / required
 
 ## [0.1.1] - 2016-05-27
 ### Added
