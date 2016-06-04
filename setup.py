@@ -15,7 +15,7 @@ extras_require = {
 }
 
 setup(name='jsonresume-validator',
-      version='0.1.1',
+      version='0.1.2',
       description='validates JSON resumes',
       author='Kelvin Tay',
       author_email='kelvintay@gmail.com',
