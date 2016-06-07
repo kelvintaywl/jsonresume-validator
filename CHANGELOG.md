@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## [0.1.3] - 2016-06-07
+- cleaned up fixture files
+
 ## [0.1.2] - 2016-06-04
 ### Changed
 - made end dates not compulsory / required (e.g., in work experiences)
