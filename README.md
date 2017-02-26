@@ -1,4 +1,6 @@
 [![Build Status](https://travis-ci.org/kelvintaywl/jsonresume-validator.svg?branch=master)](https://travis-ci.org/kelvintaywl/jsonresume-validator) [![PyPI version](https://badge.fury.io/py/jsonresume-validator.svg)](https://https://pypi.python.org/pypi/jsonresume-validator)
+[![Code Climate](https://codeclimate.com/github/kelvintaywl/jsonresume-validator/badges/gpa.svg)](https://codeclimate.com/github/kelvintaywl/jsonresume-validator) [![Test Coverage](https://codeclimate.com/github/kelvintaywl/jsonresume-validator/badges/coverage.svg)](https://codeclimate.com/github/kelvintaywl/jsonresume-validator/coverage) [![Issue Count](https://codeclimate.com/github/kelvintaywl/jsonresume-validator/badges/issue_count.svg)](https://codeclimate.com/github/kelvintaywl/jsonresume-validator)
+
 
 # JSON Resume Validator
 
@@ -73,4 +75,3 @@ else:
 		logging.info("Resume structure: {}".format(resume))
 
 ```
-

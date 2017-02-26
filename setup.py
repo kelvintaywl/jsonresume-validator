@@ -11,6 +11,7 @@ extras_require = {
         "nose",
         "coverage",
         "flake8",
+        "codeclimate-test-reporter"
     ]
 }
 
