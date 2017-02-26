@@ -13,7 +13,9 @@ class TestCountryCodeValidation(unittest.TestCase):
         for country_code, exc_class in [
             ('JP', None),
             ('FR', None),
-            ('MEX', Invalid)
+            ('USA', Invalid),
+            ('MEX', Invalid),
+            ('', Invalid)
         ]:
             if isinstance(exc_class, Exception):
                 self.assertRaises(

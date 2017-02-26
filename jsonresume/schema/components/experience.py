@@ -16,20 +16,19 @@ class Courses(colander.SequenceSchema):
     course = colander.SchemaNode(colander.String())
 
 
-class Work(Experience):
+class Career(Experience):
+    position = colander.SchemaNode(colander.String())
+    summary = colander.SchemaNode(colander.String())
+    website = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
+    highlights = Highlights()
+
+
+class Work(Career):
     company = colander.SchemaNode(colander.String())
-    position = colander.SchemaNode(colander.String())
-    summary = colander.SchemaNode(colander.String())
-    website = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
-    highlights = Highlights()
 
 
-class Volunteer(Experience):
+class Volunteer(Career):
     organization = colander.SchemaNode(colander.String())
-    position = colander.SchemaNode(colander.String())
-    summary = colander.SchemaNode(colander.String())
-    website = colander.SchemaNode(colander.String(), validator=colander.url, missing=None)
-    highlights = Highlights()
 
 
 class Education(Experience):

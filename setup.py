@@ -2,8 +2,12 @@
 
 from setuptools import setup, find_packages
 
+
+VERSION = '0.1.3'
+
 requires = [
-    "colander==1.2"
+    "colander==1.3.2",
+    "pycountry==17.1.8"
 ]
 
 extras_require = {
@@ -16,7 +20,7 @@ extras_require = {
 }
 
 setup(name='jsonresume-validator',
-      version='0.1.3',
+      version=VERSION,
       description='validates JSON resumes',
       author='Kelvin Tay',
       author_email='kelvintay@gmail.com',

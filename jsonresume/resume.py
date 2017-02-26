@@ -16,8 +16,6 @@ class Resume(object):
             ResumeSchema().deserialize(self.original_data)
         except colander.Invalid as e:
             raise InvalidResumeError(e)
-        else:
-            pass
 
     def is_valid(self):
         try:
