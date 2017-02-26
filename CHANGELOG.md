@@ -1,6 +1,9 @@
 # Change Log
 
 ## [Unreleased]
+
+## [0.1.4] - 2017-02-26
+- added thorough check on country codes
 - added codeclimate test coverage reporting
 
 ## [0.1.3] - 2016-06-07

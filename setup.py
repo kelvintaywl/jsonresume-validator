@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.1.3'
+VERSION = '0.1.4'
 
 requires = [
     "colander==1.3.2",
@@ -25,7 +25,7 @@ setup(name='jsonresume-validator',
       author='Kelvin Tay',
       author_email='kelvintay@gmail.com',
       url='https://github.com/kelvintaywl/jsonresume-validator',
-      download_url='https://github.com/kelvintaywl/jsonresume-validator/tarball/0.1.3',
+      download_url='https://github.com/kelvintaywl/jsonresume-validator/tarball/{}'.format(VERSION),
       keywords='jsonresume, validation, colander',
       packages=find_packages(),
       include_package_data=True,
