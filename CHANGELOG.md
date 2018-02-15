@@ -2,11 +2,20 @@
 
 ## [Unreleased]
 
+## [0.1.5] - 2018-02-16
+### Added
+- added MIT license
+
+### Changed
+- upgraded version dependencies (non-breaking changes)
+
 ## [0.1.4] - 2017-02-26
+### Added
 - added thorough check on country codes
 - added codeclimate test coverage reporting
 
 ## [0.1.3] - 2016-06-07
+### Changed
 - cleaned up fixture files
 
 ## [0.1.2] - 2016-06-04
