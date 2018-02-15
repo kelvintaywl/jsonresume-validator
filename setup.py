@@ -6,8 +6,8 @@ from setuptools import setup, find_packages
 VERSION = '0.1.4'
 
 requires = [
-    "colander==1.3.2",
-    "pycountry==17.1.8"
+    "colander==1.4.0",
+    "pycountry==17.9.23"
 ]
 
 extras_require = {
