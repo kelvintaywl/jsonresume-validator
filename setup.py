@@ -6,7 +6,7 @@ from setuptools import setup, find_packages
 VERSION = '0.1.5'
 
 requires = [
-    "colander==1.4.0",
+    "colander==1.7.0",
     "pycountry==17.9.23"
 ]
 
